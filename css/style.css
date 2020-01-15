@@ -1,0 +1,47 @@
+body{
+font-family: pouyan;
+font-size: 14px;
+padding: 0;
+margin: 0;
+direction: rtl;
+}
+a{text-decoration: none;}
+nav{
+    height: 50px;
+    border: 1px solid black;
+}
+nav img{
+    height: 30px;
+    margin: 10px;
+    float: right;
+}
+nav ul{
+float: right;
+list-style: none;
+}
+
+nav ul li{
+    float: right;
+    margin: auto 10px;
+    color: rgb(43, 43, 43);
+}
+nav ul li a{
+    color: black;
+}
+nav ul li:hover{
+    color: rgb(7, 7, 7);
+    font-weight: bold;
+}
+nav ul.link{
+    float: left;
+}
+/* nav ul.link li{
+    background: #A62626;
+    color: #fff;
+} */
+nav ul.link li a{
+    color: white;
+    background: #A62626;
+    padding: 7px 10px;
+    border-radius: 8px;
+}
